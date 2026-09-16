@@ -1,0 +1,12 @@
+## Binding external properties from application.yaml/properties into an application at runtime
+
+## We want the AI to generate messages using these keywords
+## Need to be matched to a configuration class
+ai-generated-tweet-to-kafka-service:
+  streaming-data-keywords:
+    - Java
+    - Microservices
+    - Spring
+    - Kafka
+    - Elasticsearch
+  scheduler-duration-sec: 30
